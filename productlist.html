@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="productlist.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar background h-nav-resp">
+      <ul class="nav-list v-class-resp">
+        <div class="logo">
+          <img src="pilogo.jpg" alt="logo" />
+        </div>
+
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ul>
+
+      <div class="rightNav v-class-resp">
+        <input type="text" name="search" id="search" />
+        <button class="btn btn-sm" style="color: white">Search</button>
+        <button class="btn btn-sm" style="color: white">Login</button>
+      </div>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+    <div class="heading">
+      <h1>Our Featured Products</h1>
+    </div>
+
+    <div class="product-card">
+      <div class="product-image-container">
+        <img
+          src="https://m.media-amazon.com/images/I/41b+pmzIoIL.jpg"
+          class="product-image"
+        />
+      </div>
+      <div class="product-info">
+        <h2 class="product-title">MAXHUB Touch Panel All-in-One 86 inch</h2>
+        <p class="product-description">
+          Black 86 Inch Maxhub Interactive Flat Panel, For Education, Power
+          Consumption: 500 W
+        </p>
+        <p class="product-price">₹ 2,77,999</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image-container">
+        <img
+          src="https://www.edusquadz.in/cdn/shop/files/maxhub-interactive-flat-panel-display-75-without-ops-500x500_2.webp?v=1690448104&width=600"
+          alt="Product Image"
+          class="product-image"
+        />
+      </div>
+      <div class="product-info">
+        <h2 class="product-title">MAXHUB Interactive Flat Panel 75 inch</h2>
+        <p class="product-description">
+          High Color Accuracy | 3840 x 2160 | Best for Online Teaching | 4K
+          Display | E2 Series
+        </p>
+        <p class="product-price">₹ 1,99,999</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+
+    <script src="resp.js"></script>
+  </body>
+</html>
